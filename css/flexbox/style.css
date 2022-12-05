@@ -1,0 +1,49 @@
+.item{
+    border: 2px solid black;
+    height: 50px; 
+     width: 50px;
+    background-color: red;
+    margin: 20px;
+    text-align: center;
+
+
+
+    
+}
+
+.container{
+    display: flex;
+    border: 2px solid green;
+    height: 800px;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    /* align-items: stretch; */
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+#flex{
+    /* flex-grow:; */
+    justify-self: center;
+    align-self: center;
+
+
+
+
+
+
+
+
+
+     
+    align-items: flex-end;
+    justify-content: ;
+    flex-direction: row-reverse;
+    
+
+    
+
+
+
+}

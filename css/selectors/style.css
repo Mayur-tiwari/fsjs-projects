@@ -1,0 +1,48 @@
+
+      /* universal selector */
+      * {
+          /* margin: 0; */
+
+      }
+
+      /* individual selector */
+      /* p{
+        color: blueviolet;
+      }
+       */0
+      /* class and id selector */
+      /* .bg-black{background-color: black; color: antiquewhite;}
+      #unique{color: chartreuse;} */
+
+
+     
+      
+      /* and selector (chained)
+      
+        background-color: blue;*/
+         {
+            background-color: blue;
+        }
+        
+      
+
+     
+      /* combined selector */
+       /* {
+            background-color: blue;
+        } */
+
+      /* inside an element */
+      /* div ul li{background-color: blue;} */
+
+      
+      /* direct child */
+      /* div>li{background-color: blue;} */
+      
+
+      /* sibling  ~ or + */
+      /* .sibling + p{background-color: pink;}
+       */
+
+
+       
