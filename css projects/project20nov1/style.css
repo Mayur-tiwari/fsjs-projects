@@ -1,0 +1,106 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav div img{
+    height: 30px;
+}
+
+
+
+
+ .grow-list{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    
+
+}
+
+
+ .list{
+    display: flex;
+    list-style: none;
+    font-weight: 550;
+    color: #9a9a9e;
+    font-size: .01px;
+   
+    } 
+    div ul li:nth-child(1){
+        color:#000000;
+    }
+
+    .list-item{
+        margin: 15px;
+        font-size: 12px; */
+    
+       
+}
+ .nav-button{
+
+    background-color: #480ca8;
+    color: antiquewhite;
+    border-radius: 7px;
+     height: 35px; 
+    border: 1px solid #480ca8 ; 
+
+}
+
+nav div button{
+    position: absolute;
+    top: 12px;
+    right: 80px;
+    height: 40px;
+
+}
+
+
+
+
+
+span{
+    color: #3944F7;
+}
+
+
+section div div img{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    right: 2px;
+    top: 100px;
+    
+}
+
+h1{
+    font-size: 50px;
+    position: absolute;
+    width: 400px;
+    top: 150px;
+    left: 60px;
+   
+
+}
+
+
+
+p{
+    position: absolute;
+    top: 370px;
+    left: 60px;
+    width: 260px;
+    font-size: 11px;
+    color:#7f7f81;
+
+    
+
+    
+}
+
+.nav-button.btn{
+    float: left;
+    position: absolute;
+    top: 450px;
+    left: 60px;
+    height: 50px;
+}
