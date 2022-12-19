@@ -1,0 +1,71 @@
+body{
+    background-color:#151515;
+}
+
+
+.header{
+   
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    color: white;
+}
+.Simplify{
+    display: flex;
+    z-index: 1;
+    margin-left: 100px;
+}
+
+.hurry{
+    color: #c8c8c8;
+}
+
+.black-bg{
+    display: flex;
+}
+
+.box{
+
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    border: 2px solid green;
+}
+.gray-D{
+    display: flex;
+}
+.another-g-D{
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+
+
+}
+.cust-rev{
+    display: flex;
+    gap: 200px;
+}
+.footer{
+    display: flex;
+}
+.trans{
+    font-size: 90px;
+    color: white;
+    z-index: 2;
+}
+.card-1{
+    z-index: 1;
+}
+.card-2{
+    position: relative;
+    bottom: ;
+    right:1200px ;
+    z-index: -1;
+}
+.r-div{
+     position: relative;
+     left: 150px;
+}
