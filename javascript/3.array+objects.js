@@ -6,6 +6,10 @@ let BA = {
     ln:'master',
     bal:10000,
 };
+//for in loop
+for(let x in BA){
+    console.log(x);
+}
 
 console.log(BA);
 console.log(BA.ln);
