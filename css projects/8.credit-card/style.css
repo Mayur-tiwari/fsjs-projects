@@ -6,21 +6,87 @@ body{
 .header{
    
     display: flex;
+    gap: 50px;
 }
 
 ul{
     list-style-type: none;
     display: flex;
     color: white;
+    margin-left: 250px;
+}
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-p{
+    margin-left: 200px;
+    color: white;
+}
+.nav-button{
+    margin-left: 50px;
+}
+.trans{
+    font-size: 80px;
+    color: white;
+    z-index: 2;
+    width: 900px;
 }
 .Simplify{
     display: flex;
-    z-index: 1;
+
     margin-left: 100px;
+}
+.simplify-minor{
+    z-index: 3;
+    
+}
+.hi{
+    z-index: -4;
+}
+.get-started-button{
+    position: relative;
+    bottom: 20px;
+}
+.partition{
+    display: flex;
+    color: white;
+}
+.vertical-line{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.p42{
+    font-size: 30px;
+    margin-right: 8px;
+    font-weight: 600;
+    position: relative;
+    bottom: 12px;
+}
+.p12{
+    font-size: 30px;
+    margin-right: 8px;
+    font-weight: 600;
+    position: relative;
+    bottom: 12px;
+}
+
+.happy-active-user{
+    display: flex;
+    margin-right: 5px;
+    width: 160px;
+}
+.years-experience{
+    margin-left: 20px;
+    display: flex;
+    width: 140px;
 }
 
 .hurry{
     color: #c8c8c8;
+    z-index: -1;
+    position: relative;
+    bottom: 50px;
 }
 
 .black-bg{
@@ -51,19 +117,18 @@ ul{
 .footer{
     display: flex;
 }
-.trans{
-    font-size: 90px;
-    color: white;
-    z-index: 2;
-}
+
+
 .card-1{
-    z-index: 1;
+    z-index: -1;
+    position: relative;
+    right: 420px;
 }
 .card-2{
     position: relative;
-    bottom: ;
-    right:1200px ;
-    z-index: -1;
+    bottom: 50px;
+    right:1500px ;
+    z-index: -2;
 }
 .r-div{
      position: relative;
