@@ -8,19 +8,22 @@ body{
     display: flex;
     gap: 50px;
 }
+.img1{
+    margin-left: 40px;
+}
 
 ul{
     list-style-type: none;
     display: flex;
     color: white;
-    margin-left: 250px;
+    margin-left: 180px;
 }
 li{
     margin-left: 20px;
     margin-right: 20px;
 }
 .nav-p{
-    margin-left: 200px;
+    margin-left: 180px;
     color: white;
 }
 .nav-button{
@@ -35,7 +38,8 @@ li{
 .Simplify{
     display: flex;
 
-    margin-left: 100px;
+    margin-left: 40px;
+    height: 100vh;
 }
 .simplify-minor{
     z-index: 3;
@@ -89,31 +93,10 @@ li{
     bottom: 50px;
 }
 
-.black-bg{
-    display: flex;
-}
-
-.box{
-
-    height: 300px;
-    width: 300px;
-    background-color: gray;
-    border: 2px solid green;
-}
-.gray-D{
-    display: flex;
-}
-.another-g-D{
-    height: 200px;
-    width: 300px;
-    background-color: gray;
 
 
-}
-.cust-rev{
-    display: flex;
-    gap: 200px;
-}
+
+
 .footer{
     display: flex;
 }
@@ -122,15 +105,155 @@ li{
 .card-1{
     z-index: -1;
     position: relative;
-    right: 420px;
+    right: 290px;
+    
 }
 .card-2{
     position: relative;
     bottom: 50px;
-    right:1500px ;
+    right:1200px ;
     z-index: -2;
 }
 .r-div{
      position: relative;
      left: 150px;
 }
+.logo-4{
+    background-color: #292929;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+.black-bg{
+    display: flex;
+    color: white;
+}
+.best-payment{
+    font-size: 70px;
+    margin-right: 90px;
+    margin-left: 60px;
+    line-height: 80px;
+}
+.services{
+    font-size: 22px;
+    line-height: 30px;
+    position: relative;
+    top: 100px;
+    margin-right: 150px;
+    margin-left: 140px;
+    color: #adadad;
+}
+
+.box{
+
+    height: 250px;
+    width: 250px;
+    background-color: gray;
+}
+.gray-D{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    height: 50vh;
+}
+.D-1{
+    background-color:#272727;
+    border: solid 1px white;
+    
+
+}
+
+.D-2{
+    background: #4d4b49;
+    border: solid 2px white;
+    position: relative;
+    bottom: 30px;
+    
+
+}
+
+
+.D-3{
+    background-color: #272727;
+    border: solid 1px white;
+    
+}
+.unique{
+    color:black;
+    background-color: #fff;
+}
+.unique-p-1{
+    font-size: 70px;
+    margin-left: 340px;
+    width: 700px;
+    text-align: center;
+}
+.unique-p-2{
+
+    color: #4d4b49;
+    font-size: 20px;
+    width: 550px;
+    margin-left: 410px;
+}
+.vertical-cards{
+    margin-left: 300px;
+    z-index: -1;
+}
+.satisfied{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    width: 800px;
+    margin-left: 270px;
+}
+
+.features{
+    color: #dbdad9;
+    text-align: center;
+    font-size: 18px;
+}
+
+.another-g-D{
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    margin-top: 0px;
+    color:#b6ada6;
+    background-color:#1e1f24 ;
+    
+
+
+}
+.cust-rev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+.lets{
+    font-size: 60px;
+    text-align: center;
+    width: 800px;
+    margin-left: 270px;
+    color: white;
+
+}
+.customizing{
+    background-color: #ab4ca6;
+    height: 40vh;
+
+}
+.center-button{
+    margin-left: 600px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+
+
+
