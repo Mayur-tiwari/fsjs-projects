@@ -1,5 +1,6 @@
 body{
     background-color:#151515;
+    overflow-x: hidden;
 }
 
 
@@ -28,6 +29,20 @@ li{
 }
 .nav-button{
     margin-left: 50px;
+    background: none;
+    border: none;
+    color: white;
+    background-image: url(./Assets/Icons/btn-pink-bg.svg);
+    background-repeat: no-repeat;
+    margin-top: 16px;
+    height: 20px;
+}
+.drop-down{
+    position: relative;
+    top: 17px;
+
+    right: 18px;
+
 }
 .trans{
     font-size: 80px;
@@ -78,7 +93,7 @@ li{
 .happy-active-user{
     display: flex;
     margin-right: 5px;
-    width: 160px;
+    width: 170px;
 }
 .years-experience{
     margin-left: 20px;
@@ -91,15 +106,18 @@ li{
     z-index: -1;
     position: relative;
     bottom: 50px;
+    width: 450px;
+    font-size: 18px;
+}
+.plus{
+    position: relative;
+    top: 23px;
 }
 
 
 
 
 
-.footer{
-    display: flex;
-}
 
 
 .card-1{
@@ -159,11 +177,45 @@ li{
     justify-content: center;
     height: 50vh;
 }
+.dollar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
+    
+    
+}
+.fee{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+
+}
+.dollar-image{
+    position: relative;
+    top: 9px;
+    left: 6px;
+}
 .D-1{
     background-color:#272727;
     border: solid 1px white;
+    color: white;
     
 
+}
+.anywhere{
+    text-align: center;
+    font-size: 21px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+    margin-bottom: 8px;
+}
+.cloud{
+    margin-left: 65px;
+    margin-top: 10px;
+    height: 120px;
 }
 
 .D-2{
@@ -173,6 +225,15 @@ li{
     bottom: 30px;
     
 
+}
+.guaranteed{
+    color: white;
+    text-align:center;
+    font-size: 22px;
+}
+.lock{
+    margin-left: 43px;
+    
 }
 
 
@@ -184,12 +245,15 @@ li{
 .unique{
     color:black;
     background-color: #fff;
+    height: 170vh;
+
 }
 .unique-p-1{
     font-size: 70px;
     margin-left: 340px;
     width: 700px;
     text-align: center;
+    padding-top: 70px;
 }
 .unique-p-2{
 
@@ -197,9 +261,10 @@ li{
     font-size: 20px;
     width: 550px;
     margin-left: 410px;
+
 }
 .vertical-cards{
-    margin-left: 300px;
+    margin-left: 270px;
     z-index: -1;
 }
 .satisfied{
@@ -214,18 +279,22 @@ li{
     color: #dbdad9;
     text-align: center;
     font-size: 18px;
+    margin-left: 440px;
+    margin-right: 440px;
 }
 
 .another-g-D{
-    height: 200px;
-    width: 300px;
+    height: 170px;
+    width: 400px;
     background-color: gray;
-    margin-top: 0px;
-    color:#b6ada6;
+    margin-top: 40px;
+    color:#cac4bf;
     background-color:#1e1f24 ;
-    
-
-
+    padding: 12px;
+    border: 2px solid white;
+}
+.platform{
+    background-color: #4f4d4c;
 }
 .cust-rev{
     display: flex;
@@ -240,18 +309,48 @@ li{
     width: 800px;
     margin-left: 270px;
     color: white;
+    padding-top: 60px;
+
+
 
 }
 .customizing{
-    background-color: #ab4ca6;
-    height: 40vh;
-
+     background-color: #ab4ca6; 
+    height: 50vh;
+    background-image: url(./Assets/Photos/Rectangle\ 6773.png);
+    background-image: url(./Assets/Photos/Rectangle\ 6774.png);
+    background-image: url(./Assets/Photos/Diamond-left.png);
 }
 .center-button{
     margin-left: 600px;
     background-color: transparent;
     border: none;
     color: white;
+}
+.footer-logo{
+    margin-left: 50px;
+}
+.footer{
+    display: flex;
+    height: 25vh;
+    margin-top: 60px;
+    font-size: 14px;
+}
+.pink-text{
+    color: #de2ad8;
+
+}
+.black-text{
+    color: black;
+}
+.button{
+    background: none;
+    border: none;
+    color: white;
+    background-image: url(./Assets/Icons/btn-pink-bg.svg);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
