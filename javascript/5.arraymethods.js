@@ -6,7 +6,7 @@ console.log(names.length);
 console.log(names[2]);
 //last element
 console.log(names[names.length-1]);
-replacing n element
+replacing an element
 names[2] = 'shanaya';
 console.log(names);
 //inserting new value

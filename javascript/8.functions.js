@@ -11,12 +11,14 @@ add1();
 
 //fn with argument
 
-function add2(arg1,arg2) {
-    console.log('sum of a and b is ' + (arg1+arg2));
+function add2() {
+    return function sum(){
+        console.log("hi");
+    }
+    // console.log('sum of a and b is ' + (arg1+arg2));
     
 }
-add2(20,30);
-
+add2();
 //fn with return value
 
 // function add3(argg1,argg2) {
